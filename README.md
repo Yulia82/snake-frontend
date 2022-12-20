@@ -1,2 +1,0 @@
-# snake-frontend
-React, Hooks
