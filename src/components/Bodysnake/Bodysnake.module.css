@@ -1,9 +1,9 @@
 .bodysnake {
-    position: absolute;
-    z-index: 2;
-    width: 14px;
-    height: 14px;
-    margin: 2px;
-    border-radius: 25%;
-    background-color: rgb(85, 218, 52);
+  position: absolute;
+  z-index: 2;
+  width: 14px;
+  height: 14px;
+  margin: 2px;
+  border-radius: 25%;
+  background-color: rgb(85, 218, 52);
 }

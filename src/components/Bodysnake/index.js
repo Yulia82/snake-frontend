@@ -1,1 +1,1 @@
-export { default } from './Bodysnake'
+export { default } from "./Bodysnake";

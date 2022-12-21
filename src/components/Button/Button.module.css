@@ -1,19 +1,19 @@
 .button {
-    display: inline-block;
-    min-width: 100px;
-    height: 40px;
-    padding: 4px 20px;
-    margin-top: 6px;
-    margin-right: auto;
-    border: 0;
-    border-radius: 6px;
-    font-weight: bold;
-    font-size: 16px;
-    color: rgb(65, 63, 63);
+  display: inline-block;
+  min-width: 100px;
+  height: 40px;
+  padding: 4px 20px;
+  margin-top: 6px;
+  margin-right: auto;
+  border: 0;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(65, 63, 63);
 }
 
 .button:hover {
-    color: white;
-    background-color: rgb(136, 233, 107);
-    cursor: pointer;
+  color: white;
+  background-color: rgb(136, 233, 107);
+  cursor: pointer;
 }

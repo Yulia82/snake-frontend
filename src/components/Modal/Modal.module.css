@@ -1,23 +1,23 @@
 .modal {
-    padding-top: 200px;
+  padding-top: 200px;
 }
 
 .modalTitle {
-    /* font-family: 'Droid Sans'; */
-    /* margin-left: auto;
+  /* font-family: 'Droid Sans'; */
+  /* margin-left: auto;
     margin-right: auto; */
-    font-size: 28px;
-    /* padding-left: 80px; */
-    color: rgb(236, 10, 10);
-    /* text-align: center; */
+  font-size: 28px;
+  /* padding-left: 80px; */
+  color: rgb(236, 10, 10);
+  /* text-align: center; */
 }
 
 .txtbody {
-    font-weight: bold;
-    font-size: 20px;
-    color: rgb(65, 63, 63);
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(65, 63, 63);
 }
 
 .button:hover {
-    background-color: rgb(136, 233, 107);
+  background-color: rgb(136, 233, 107);
 }

@@ -1,1 +1,1 @@
-export { default } from "./Recordlist"
+export { default } from "./Recordlist";

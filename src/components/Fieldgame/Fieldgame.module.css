@@ -1,10 +1,10 @@
 .fieldGame {
-    position: relative;
-    width: 400px;
-    height: 400px;
-    margin-top: 50px;
-    background-color: rgb(65, 63, 63);
-    border: 2px;
-    z-index: 0;
-    overflow: hidden;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  background-color: rgb(65, 63, 63);
+  border: 2px;
+  z-index: 0;
+  overflow: hidden;
 }
