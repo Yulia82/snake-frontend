@@ -48,7 +48,7 @@ function App() {
 
   function onSubmit(dataSubmit) {
     const { name } = dataSubmit;
-    setName(name);
+    createNewPlayer(name, points);
   }
 
   function toggleStart() {
@@ -217,6 +217,7 @@ function App() {
   async function createNewPlayer(name, points) {
     try {
       const { data } = await createPlayer({ name, points });
+      setName(data.newPlayer.name);
       setId(data.newPlayer.id);
     } catch (error) {
       console.log(error.massage);
@@ -237,13 +238,6 @@ function App() {
   useEffect(() => {
     getRecordList();
   }, []);
-
-  useEffect(() => {
-    if (!name) {
-      return;
-    }
-    createNewPlayer(name, points);
-  }, [name]);
 
   return (
     <>
